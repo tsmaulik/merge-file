@@ -15,7 +15,7 @@ const Table = ({ tableData }) => {
 
   const sendMessage = (PartyName, Bill, Cash) => {
     let message = `Dear Sir,
-    an amount is Due
+    an amount is Due as on 31-03-22
     BILL Rs *${Bill == 0 ? "00" : Bill}*
     CASH Rs *${Cash == 0 ? "00" : Cash}*
     please take into consideration`;
